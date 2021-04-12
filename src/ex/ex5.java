@@ -24,6 +24,8 @@ public class ex5 {
         //結果の出力
         System.out.println(Arrays.toString(array));
         System.out.println(String.format("max:%d min:%d ave:%.2f", max, min, ave));
+             // %d=デシマル(整数データ)
+             // %f=小数データ( %.2f=小数第2位まで出る)
     }
 }
 
