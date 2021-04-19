@@ -1,4 +1,4 @@
-package ObjectSample;
+package objectSample;
 
 class Student {
     //クラスは呼び出すためのもの→実行できない
