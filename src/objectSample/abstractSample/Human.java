@@ -1,6 +1,8 @@
 package objectSample.abstractSample;
 
 //抽象クラスのサンプル
+//継承前提で作られてると分かるアイコン
+
 abstract class Human {
     protected String name;
 
