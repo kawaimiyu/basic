@@ -8,14 +8,16 @@ class Sample2 implements Cloneable {
     //コンストラクタも安全ではない
     public Sample2(int num, Node node) {
         this.num = num;
-        this.node = node;
+        this.node = new Node(node); //ポインタの参照を断ち切るため
     }
 
     public void setNum(int num) {
+
         this.num = num;
     }
 
     public void setNode(Node node) {
+
         this.node = node;
     }
 
@@ -32,10 +34,12 @@ class Sample2 implements Cloneable {
     public Sample2 clone() {
         Sample2 clone = null;
         try {
+            //オブジェクトクラスのクローンメソッドで複製する
             clone = (Sample2) super.clone();
+            //参照型のフィールドを個別で複製する
         } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
+            e.printStackTrace();//例外時のトレース
         }
-        return clone;
+        return clone; //複製を返却する
     }
 }
