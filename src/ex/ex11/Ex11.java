@@ -40,6 +40,7 @@ class Ex11 {
         }
 
         //以下自分でやったやつ　実行できた
+
         //list.sort(Comparator.comparing(Person::getAge, Comparator.reverseOrder()));//降順
         //System.out.println("男性のみで降順");
         //for (Person s : list) {
