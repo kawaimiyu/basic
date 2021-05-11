@@ -29,7 +29,7 @@ class Ex131 {
                     employees.get(i).getSum());
         }
 
-        }
+        }//合計は合計する器をゼロにしてから一つずつ足していく
 
 
         }

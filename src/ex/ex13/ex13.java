@@ -5,6 +5,7 @@ class Ex13 {
         //Employeeクラスのインスタンスを作る
         Employee employee = new Employee(1,"やまだ","男",35);
         //表示する
+        //1か月ごとの売り上げ
         System.out.println(employee);
         employee.setSales(1,500);
         employee.setSales(2,300);

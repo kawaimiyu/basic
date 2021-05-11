@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Branch {
+    //Branch=支店クラス（従業員クラスをさらに分割)
     private String name;
     private List<Employee> employees = new ArrayList<>();
 
